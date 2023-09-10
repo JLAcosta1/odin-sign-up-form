@@ -122,5 +122,34 @@ input {
 .form-button {
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    padding-left: 48px;
+    padding-right: 280px;
+    padding-top: 24px;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    color: #FFF;
+}
+
+.form-button p {
+    margin-top: 18px;
+    margin-bottom: 12px;
+}
+
+.form-button button {
+    background-color: #FFF;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: #DDDADA;
+    box-shadow: 6px 6px 8px #3B5C71;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    color: #0E202C;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 54px;
+    padding-right: 54px;
+}
+
+.form-button a {
+    color: #F2F4F3;
 }
