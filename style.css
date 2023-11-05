@@ -116,6 +116,7 @@ body {
     color: #565454;
     margin-bottom: 7px;
     margin-top: 10px;
+    margin-right: 40px;
 }
 
 .form-sign-up form section fieldset p span{
@@ -141,7 +142,8 @@ input {
 }
 
 input:focus {
-    border-color: #0E202C
+    border-color: #0E202C;
+    box-shadow: 3px 3px 5px #3B5C71;
 }
 
 .form-button {
