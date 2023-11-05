@@ -23,6 +23,25 @@ body {
     height: 100%;
 }
 
+.overlay {
+    position: relative;
+    align-items: center;
+    gap: 1%;
+    display: flex;
+    bottom: 95%;
+}
+
+.overlay img {
+    width: 16%;
+    height: auto;
+    margin-left: 5%;
+}
+
+.overlay-text {
+    color: #FFF;
+    font-size: 36px;
+}
+
 .form-card {
     flex: 3 3 0;
     display: flex;
