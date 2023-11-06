@@ -21,7 +21,7 @@
                 <p>We look forward to hearing from <em>you</em>.</p>
             </div>
             <div class="form-sign-up">
-                <form action="post" method="get" id="userInput">
+                <form action="post" method="get" id="userInput" onsubmit="return validateForm();">
                     <h1>Let's Connect</h1>
                     <section>
                         <fieldset>
@@ -50,7 +50,7 @@
                             <p>
                                 <label for="phoneNum">
                                     <span>Phone Number<strong><span aria-required="required">*</span></strong> (555-555-5555)</span>
-                                    <input type="text" id="phoneNum" name="phoneNum" pattern="(\d{3}[\-]\d{3}[\-]\d{4})" required />
+                                    <input type="text" id="phoneNum" name="phoneNum" maxlength="12" pattern="(\d{3}[\-]\d{3}[\-]\d{4})" required />
                                 </label>
                             </p>
                         </fieldset>
@@ -60,13 +60,13 @@
                             <p>
                                 <label for="Password">
                                     <span>Password<strong><span aria-required="required">*</span></strong></span>
-                                    <input type="password" id="password" name="password" required />
+                                    <input type="password" id="password" name="password" class="password" required />
                                 </label>
                             </p>
                             <p>
                                 <label for="confirmPassword">
                                     <span>Confirm Password<strong><span aria-required="required">*</span></strong></span>
-                                    <input type="password" id="confirmPassword" name="confirmPassword" required />
+                                    <input type="password" id="confirmPassword" name="confirmPassword" class="password" required />
                                 </label>
                             </p>
                         </fieldset>
@@ -83,4 +83,5 @@
             </div>
         </div>
     </body>
+    <script src="validateForm.js"></script>
 </html>
